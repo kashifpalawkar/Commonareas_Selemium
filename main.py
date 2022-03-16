@@ -1,10 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
-
+from pandas import pd
 #commit
 
-
+df3 = pd.read_excel(r'C:/Users/kashif/Desktop/websocket/aatrades.xlsx')
 PATH = "C:\\Users\\Kashif\\Music\\chromedriver\\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 
